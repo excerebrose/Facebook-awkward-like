@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Facebook Awkward Like",
-  "description": "This extension disables the like button on Facebook pages so you don't end up liking your crush's post from 2011 or other such scenarios. You know the drill!",
+  "description": "This extension disables the like button on Facebook so you don't end up liking posts by mistake.",
   "version": "1.0.0",
 
   "icons": {
