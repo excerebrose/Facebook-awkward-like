@@ -1,4 +1,4 @@
 .DisabledLikeButton {
     pointer-events: none !important;
-    background-color: #3b5998 !important;
+    opacity: 0 !important;
 }
