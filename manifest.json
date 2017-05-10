@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Awkward Like",
+  "description": "This extension disables the like button on Facebook pages so you don't end up liking your crush's post from 2011 or other such scenarios. You know the drill!",
+  "version": "1.0.0",
+
+  "icons": {
+    "128": "images/icon.png"
+  },
+
+  "permissions": [
+    "https://www.facebook.com/",
+    "http://www.facebook.com/",
+    "tabs",
+    "storage"
+  ],
+
+  "background": {
+    "scripts": ["bootstrap.js"],
+    "persistent": false
+  },
+
+   "content_scripts": [
+    {
+      "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
+      "js": ["disable.js"],
+      "css": ["disable.css"]
+    }
+  ],
+
+  "page_action": {
+    "default_title": "No more accidental Like(s) Awkwardness!",
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  }
+
+}
