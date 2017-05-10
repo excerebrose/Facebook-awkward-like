@@ -10,3 +10,5 @@ The awkward situation where you don't know whether to unlike quickly so that the
 Well worry not, Like Button Blocker is here.
 Simply download the extension from the Google extension store, and disable the ability to like in one-click! (Hah, see what I did there?)
 
+## Steps to run:
+To load your extension in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right. Now click “Load unpacked extension…” and select the extension’s directory. You should now see your extension in the list.
